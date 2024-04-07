@@ -7,6 +7,7 @@ class ClienteAdmin(admin.ModelAdmin):
 
 admin.site.register(Cliente, ClienteAdmin)
 admin.site.register(Copiadora)
+admin.site.register(Tipo)
 admin.site.register(Ubicacion)
 
 class Equipo_SitioAdmin(admin.ModelAdmin):
